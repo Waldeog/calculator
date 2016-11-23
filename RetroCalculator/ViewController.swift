@@ -108,6 +108,16 @@ class ViewController: UIViewController {
             currentOperation = operation
         }
     }
+    
+    @IBAction func clearBtnPressed(_ sender: Any) {
+        currentOperation = Operation.Empty
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        result = ""
+        outputLbl.text = ""
+    }
+    
 
 
 }

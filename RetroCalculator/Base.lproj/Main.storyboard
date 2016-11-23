@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="79Q-Hb-pPJ">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,27 +23,27 @@
                         <viewControllerLayoutGuide type="bottom" id="JFG-eG-2bK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="L2z-jq-cNy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="PKN-oL-Yfi">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="iUD-Ch-qIH">
-                                <rect key="frame" x="0.0" y="444" width="320" height="124"/>
+                                <rect key="frame" x="0.0" y="543" width="375" height="124"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="124" id="LT1-jS-9aD"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="R5v-Op-AAZ">
-                                <rect key="frame" x="39" y="86.5" width="242" height="95"/>
+                                <rect key="frame" x="66.5" y="136" width="242" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="242" id="0v8-TD-x4B"/>
                                     <constraint firstAttribute="height" constant="95" id="hpp-YJ-MPc"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="are-Eb-c4F">
-                                <rect key="frame" x="61.5" y="215" width="197" height="138"/>
+                                <rect key="frame" x="89" y="264.5" width="197" height="138"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="138" id="io5-GO-GDr"/>
                                     <constraint firstAttribute="width" constant="197" id="yIy-fu-J2Z"/>
@@ -84,34 +84,34 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="IZu-oJ-uQT">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="FAL-Vy-fba">
-                                <rect key="frame" x="0.0" y="513" width="320" height="55"/>
+                                <rect key="frame" x="0.0" y="612" width="375" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="DS0-SD-Wfv"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="J11-VS-yyu">
-                                <rect key="frame" x="31.5" y="47.5" width="257" height="67"/>
+                                <rect key="frame" x="59" y="88" width="257" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="257" id="FXK-kl-UEK"/>
                                     <constraint firstAttribute="height" constant="67" id="I0G-Nn-xZg"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="d64-f1-PwY">
-                                <rect key="frame" x="7" y="128.5" width="306" height="381"/>
+                                <rect key="frame" x="35" y="169" width="306" height="420"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="381" id="P4l-gH-gwJ"/>
+                                    <constraint firstAttribute="height" constant="420" id="P4l-gH-gwJ"/>
                                     <constraint firstAttribute="width" constant="306" id="R9c-4i-CzS"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="I8C-eK-OJy">
-                                <rect key="frame" x="51" y="146.5" width="219" height="345"/>
+                                <rect key="frame" x="79" y="180" width="219" height="397"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="tqm-MB-uP5">
                                         <rect key="frame" x="0.0" y="0.0" width="219" height="65"/>
@@ -303,10 +303,26 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="WRI-Ko-lca">
+                                        <rect key="frame" x="0.0" y="350" width="219" height="47"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3M-rs-8WG">
+                                                <rect key="frame" x="78" y="0.0" width="141" height="47"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="141" id="Pun-0G-FbZ"/>
+                                                    <constraint firstAttribute="height" constant="47" id="kGW-ri-y09"/>
+                                                </constraints>
+                                                <state key="normal" image="clear"/>
+                                                <connections>
+                                                    <action selector="clearBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O3x-Er-r0C"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVK-Pr-bB5">
-                                <rect key="frame" x="46.5" y="64" width="227" height="34"/>
+                                <rect key="frame" x="74" y="104" width="227" height="34"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -318,7 +334,7 @@
                             <constraint firstItem="I8C-eK-OJy" firstAttribute="centerY" secondItem="d64-f1-PwY" secondAttribute="centerY" id="1TQ-K8-M4R"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FAL-Vy-fba" secondAttribute="bottom" id="Gif-go-Kvy"/>
                             <constraint firstItem="J11-VS-yyu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hb7-sf-QJ8"/>
-                            <constraint firstItem="d64-f1-PwY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="35" id="PLP-Z2-kgn"/>
+                            <constraint firstItem="d64-f1-PwY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="45" id="PLP-Z2-kgn"/>
                             <constraint firstItem="IZu-oJ-uQT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QMV-71-znM"/>
                             <constraint firstAttribute="trailing" secondItem="FAL-Vy-fba" secondAttribute="trailing" id="W1f-eR-3oj"/>
                             <constraint firstItem="FVK-Pr-bB5" firstAttribute="leading" secondItem="J11-VS-yyu" secondAttribute="leading" constant="15" id="YnG-1k-Xjj"/>
@@ -338,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="478" y="126"/>
+            <point key="canvasLocation" x="477.60000000000002" y="125.4872563718141"/>
         </scene>
     </scenes>
     <resources>
@@ -355,6 +371,7 @@
         <image name="Retro-Calc" width="755" height="111"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
